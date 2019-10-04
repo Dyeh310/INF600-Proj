@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IPv4</title>
+    <link rel="stylesheet"
+          href="styles.css">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand"
+           href="index.html">Home</a>
+        <a class="navbar-brand"
+           href="ipv4.html">IPv4</a>
+        <a class="navbar-brand"
+           href="nat.html">NAT</a>
+        <a class="navbar-brand"
+           href="ports.html">Ports</a>
+    </nav>
+
+
+
+</head>
+
+    <body>
+            <div class="backdrop">
+
+
+
+        <br>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Ports</h1>
+                <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+                    responsive, mobile-first projects on the web.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container">
+                <h3>What is a port?</h3>
+                <p>
+                    A port can refer to two separate things in computer networking: a physical port and a port number.
+                    Although this website will not delve into a physical port, it is important to at least understand
+                    what it is. A physical port refers to things such as Ethernet ports, USB ports, and Serial ports
+                    (“Computer Ports”). These are used as a docking station to various cables to be inserted into the
+                    computer. However, when ports are referred in this website, we will be referring to IP addressing
+                    protocols such as TCP and UDP.
+                </p>
+            </div>
+
+            <div class="container">
+                <h3>What is a protocol?</h3>
+                <p>
+                    A protocol, put simply, is an established rule or set of rules that dictate how data is sent and
+                    received across network devices. The reason for these protocols is because of the sheer number of
+                    devices and various types of information being sent across networks. Imagine if every device and
+                    every piece of information was being sent under a unique set of rules. In order for such a massive
+                    exchange of data to work successfully, a uniform set of rules must be established. These protocols
+                    break down information and execute numerous functions across every layer of the network (“Rouse”).
+                </p>
+            </div>
+
+            <div class="container">
+                <h3>What is TCP/UDP?</h3>
+                <p>
+                    The acronym TCP stands for Transmission Control Protocol. During this protocol the device sending
+                    data connects with receiver and remains connected through the entire exchange of data. The devices
+                    will remain connected until the exchange of data has been completed successfully (“Abrams”). One of
+                    the major benefits of using TCP is its ability to detect errors; this is because it was originally
+                    designed for the Department of Defense. In the event that a packet of data is lost while in route to
+                    the receiver, TCP ensures that the packet will find another route. Another benefit is the protocol’s
+                    high speed during data transfers (“Parker and Siyan”). The drawback to TCP is the high strain that
+                    it places on the devices since the connection must be maintained while data is being sent and
+                    received (“Abrams”).
+                </p>
+                <p>
+                    UDP, on the other hand, stands for User Datagram Protocol. This particular protocol deals with how
+                    the computer sending the data packets the information and, subsequently, releases the packets into
+                    the network. Unlike TCP, UDP never directly connects with a receiver, which allows of less overhead.
+                    However, there is also a greater possibility for failure because of the lack of direct communication
+                    between sender and receiver. This is an excellent protocol choice for data that does not need to be
+                    received during the first attempt at sending (“Abrams”).
+                </p>
+            </div>
+
+            <div class="container">
+                <h3>How do ports work with IP Addresses?</h3>
+                <p>
+                    A port is just one of the many pieces that make IP addresses work. For each IP address there are 65,
+                    535 TCP and another 65, 535 UDP. Anytime that a program on a computer sends or receives data, one of
+                    these ports is being used. These ports are a necessary piece in the way that IP addresses are used
+                    to send and receive data. Although this topic may seem a little far from IP addressing, it is
+                    important to understand the moving pieces that make IP addresses so vital in networking.
+                </p>
+            </div>
+            <br>
+        </div>
+</div>
+</div>
+
+</body>
+
+</html>
