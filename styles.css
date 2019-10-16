@@ -16,3 +16,17 @@
     text-indent: -20px;
 }
 
+.spacing_index_page {
+    margin-top: 70px;
+}
+
+.padding_container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+
