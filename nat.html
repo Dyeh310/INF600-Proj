@@ -57,7 +57,11 @@
         </p>
       </div>
 
-
+      <div>
+          <img src="resources\nat_world.png" class="mx-auto d-block img-responsive_65"
+          alt="Three computers connected to a nat server, connected to the internet.">
+          <p class="caption_bold text-center">The figure above shows the workings of a NAT ("How do NAT and VPN Work?").</p>
+      </div>
 
 
       <div class="container">
@@ -76,40 +80,48 @@
         <h3>Two different kinds of NATs are:</h3>
         <p>
 
-          <ul>
-            <li>
+          <strong>
               Static NAT
-            </li>
-            <li>
-              <ul>
-                <li>
-                  In this case, an unregistered IP address is mapped top a registered IP address and can now be used
-                  outside of the network (“Tyson”).
-                </li>
-              </ul>
-            </li>
+          </strong>
+              
+          <div>
+              <img src="resources\static_nat.png" class="mx-auto d-block img-responsive_65"
+              alt="The interaction between a static nat and the internet.">
+              <p class="caption_bold text-center">The figure above is an example of a static NAT ("How do NAT and VPN Work?").</p>
+          </div>
 
-            <li>
-              Dynamic NAT
-            </li>
-            <li>
-              <ul>
-                <li>
-                  This type of NAT allows a user to connect to a local device with an unregistered IP address from a
-                  group of registered IP address (“What is Dynamic Network Address”).
-                </li>
-                <li>
-                  An overloading can occur when multiple unregistered IP addresses are mapped to a single IP addresses
-                  by using different ports (“Tyson”).
-                </li>
-                <li>
-                  Overlapping occurs when IP addresses on the internal network are in use by another network. These must
-                  be altered to create unique IP addresses (“Tyson”).
-                </li>
-              </ul>
-            </li>
+            <br>
+            <p>
+                In this case, an unregistered IP address is mapped to a registered IP address and can now be used
+                outside of the network (“Tyson”).
+            </p>
 
-          </ul>
+
+
+              <strong>
+                  Dynamic NAT
+              </strong>
+
+              <div>
+                  <img src="resources\dynamic_nat.png" class="mx-auto d-block img-responsive_65"
+                  alt="A dynamic nat using a router's translation table.">
+                  <p class="caption_bold text-center">The figure above is an example of a dynamic NAT ("How do NAT and VPN Work?").</p>
+              </div>
+            
+            <p>
+                <br>
+                This type of NAT allows a user to connect to a local device with an unregistered IP address from a
+                group of registered IP address (“What is Dynamic Network Address”).              
+            </p>
+            <p>
+                An overloading can occur when multiple unregistered IP addresses are mapped to a single IP addresses
+                by using different ports (“Tyson”).
+            </p>
+            <p>
+                Overlapping occurs when IP addresses on the internal network are in use by another network. These must
+                be altered to create unique IP addresses (“Tyson”).              
+            </p>
+
         </p>
       </div>
 
