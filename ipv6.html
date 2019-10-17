@@ -36,12 +36,12 @@
 
   <body>
     <br>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Finally, IPv6</h1>
+
+      <div class="jumbotron text-center">
+        <h1>IPv6</h1>
         <p>IP Addressing for the future.</p>
       </div>
-    </div>
+
 
 
 
@@ -49,59 +49,115 @@
     <div class="container padding_container">
       <div class="container">
             <div>
-                <img src="#" 
+                <img src="resources\IPv6_format.png" 
                 class="mx-auto d-block img-responsive"
-                alt="A breakdown of an IPv4 address. Dotted-decimal notation."
+                alt="An example and breakdown of an IPv6 address."
                 >
-                <p class="caption_bold text-center"></p>                    
+                <p class="caption_bold text-center">The figure above shows
+                  a breakdown of an IPv6 address (“CCNAv6.0 – What is IPv6 Address?”).
+                </p>                    
             </div>
 
-        <h3>What is IPv4?</h3>
+        <h3>What is IPv6?</h3>
         <p>
-          In order to understand IPv6, an explanation of IPv4 is needed. IPv4 is a type of internet
-          addressing protocol that uses a 32-bit address field to provide over 4 billion different IP addresses for
-          devices
-          on the internet. At the time, this limit did not case any issue; however,
-          during the 1990s it became apparent that eventually there would be a problem.
+          Internet Protocol Version 6, better known as IPv6, is a response to the problems of IPv4. 
+          The current standard for IPv6 was created by the Internet Engineering Task Force in 1998. 
+          As discussed in the section on IPv4, the exponential growth of devices connecting to 
+          the internet was beginning to cause a major issue. With IPv4 only having the ability 
+          to produce a little over 4 billion unique addresses, and over half of the world being 
+          connected to the internet, people were outgrowing IPv4 fast (“What is IPv6?”). 
+          IPv6 is undoubtedly the future of the internet.
         </p>
       </div>
 
 
 
       <div class="container">
-        <h3>Problems with IPv4</h3>
+        <h3>What are the benefits of IPv6?</h3>
         <div class="container">
 
         </div>
         <p>
-          One of the major problems with IPv4 is simply there are more people online than expected.
-          There are roughly 7.3 billion people in the world today and over half of them own some type of computer
-          (this can include smart phones, tablets, etc). As previously mentioned, there can only be about 4.3 billion different IPv4
-          address
-          combinations. The number of available addresses are being used up quickly! Furthermore, this does not even
-          consider individuals
-          who have more than one device that requires a unique IP address. I would argue that must people in developed
-          countries have at least
-          some type of personal computer in addition to a smart phone.
-          <br />
-          <br>
-          Another major issue with IPv4 is network address translation (NAT). The idea behind a
-          NAT is to have a single public address that is used for many private addresses.
-          This can be useful for several reasons:
+          Although the main reason for the creation of IPv6 is to fix the shortcoming 
+          in IPv4 available addresses, 
+          IPv6 has other advantages as well.  Several advantages are:
+        </p>
           <ul>
-            <li>Conserves IP addresses</li>
-            <li>Allows for the privacy of device addresses</li>
-            <li>Eliminates address renumbering when a network evolves.</li>
+            <li>
+              IPv6 allows for more efficient routing; it does this by allowing Internet Service Providers 
+              to aggregate the prefixes of customers networking into a single prefix.  
+              Furthermore, fragmentation, or the breaking of packets into even smaller fragments, 
+              is now handled at the source 
+              device rather than the router. To add onto this, the packets are processed even faster.
+            </li>
+            <li>
+              Another improvement is that IPv6 supports multicast. This means that the data processed by 
+              IPv6 will now reach only the intended host, greatly freeing up bandwidth.
+            </li>
+            <li>
+              In the age persistent cybersecurity treats, security is always on users’ minds. 
+              IPSec, which provides authentication and data integrity, is part of IPv6. 
+              In the case of IPv4 firewalls would often block certain packets because of 
+              the potential to carry malware; 
+              this will no longer be the case thanks to IPsec being part of IPv6.
+            </li>
+            <p>
+              These are just some of the advantages to 
+              look forward to as the world (hopefully) 
+              begins to shift to IPv6 (“Six Benefits of IPv6”).
+            </p>
           </ul>
-          <p>The problem arises from a NAT overload. This can break applications and provides a security risk. ("Kirch")
-          </p>
-          <br />
-          A third issue with the current IPv4 Internet Protocol is the two-level structure of the IP address.
-          Once a network number is assigned to a network, so are all the host-number addresses for that network.
-          If a network number is used, then all addresses with that network are used. This is a significant waste!
-          (Stallings, 450-451)
+
+      </div>
+
+      <div>
+          <img src="resources\ipv6_main.jpg" 
+          class="mx-auto d-block img-responsive_65"
+          alt="A comparison of IPv6 and IPv4 addresses"
+          >
+          <p class="caption_bold text-center">The figure above shows
+            a comparison of IPv6 and IPv4 addresses (“IPv6 vs IPv4: what are they, 
+            what’s the difference, and which is most secure?”).
+          </p>                    
+      </div>
+
+      <div class="container">
+        <h3>Disadvantages of IPv6</h3>
+        <p>
+            There are many reasons to switch to IPv6, but 
+            that does not mean that it does not come with its own disadvantages. 
+            Some of these include:
+        </p>
+        <ul>
+          <li>
+              IPv4 is still extremely popular and many companies and people remain steadfast in 
+              their commitment to IPv4. This is increased by the fact 
+              that IPv4 and IPv6 machines cannot communicate directly with each other. 
+          </li>
+          <li>
+              It takes time to switch from IPv4 to IPv6 and the subnetting of IPv6 is difficult to read; in the end,
+              people like simplicity.
+          </li>
+        </ul>
+        <p>
+            Although the aforementioned reasons are legitimate, it 
+            seems the main reason people do not want to switch is simply 
+            because people don’t like change (“What is IPv6 Address & Why Should I Know About It?”).
         </p>
       </div>
+
+
+      
+      <div class="container">
+          <h3>Will IPv4 Disappear?</h3>
+          <p>
+              As of right now, no. There is no official date when IPv4 address will stop 
+              being used; however, the well has run dry. As of right now, the IPv4 addresses still being 
+              used are the ones being bought and sold (“What is IPv6 and Why Aren’t We There Yet?”).
+          </p>
+        </div>
+  
+
 
     </div>
 </div>

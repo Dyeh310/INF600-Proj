@@ -1,11 +1,18 @@
-.backdrop  {
-    background-color:#7FFFD4;
+
+body {
+    background: url("resources/networking_big.jpg");
+    
+}
+
+.nav_container {
+    background-color: #9370DB;
 }
 
 .container {
     background-color: white;
     border-radius: 30px;
 }
+
 
 .jumbotron {
     background-color: white;
@@ -39,4 +46,11 @@
 .caption_bold {
     font-weight: bold;
     font-size: 13px;
+}
+
+
+h3 {
+    background-color: #9370DB;
+    border-radius: 5px;
+    padding-left: 15px;
 }
